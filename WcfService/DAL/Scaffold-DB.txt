@@ -1,0 +1,10 @@
+﻿Scaffolding Database:
+
+Pre-requisite (first time setup):
+	Install via Nuget Package:
+		Microsoft.EntityFrameworkCore.SqlServer
+		Microsoft.EntityFrameworkCore.Tools
+		
+	
+In the Package Manager Console:
+	> Scaffold-DbContext "Server=localhost;Database=WcfDatabase;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DAL/Entities -f
