@@ -46,6 +46,7 @@ namespace WcfService
                     Id = u.Id,
                     FirstName = u.FirstName,
                     LastName = u.LastName,
+                    Username = u.Username,
                     Password = u.Password,
                     EnrollmentDate = u.EnrollmentDate
                 })
